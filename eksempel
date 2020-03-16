@@ -1,0 +1,23 @@
+*****************************************
+// Learn how to use Git version handling
+*****************************************
+
+Navn: Textfile two
+
+Beskrivelse av funksjon:
+
+public Message FindMessage(string text)
+{
+	Message msg = Messages.Find(element => element.MsgText.Contains(text));
+
+	if (msg == null)
+	{
+		throw new SignalNotDefinedException("Function with alias " + Alias + " does not have a message with text " + text);
+	}
+	else if (msg.Tag == null)
+	{
+		throw new SignalNotDefinedException("The command with alias " + text + " is not bound to any tag");
+	}
+
+	return msg;
+}
