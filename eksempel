@@ -24,5 +24,8 @@ public Message FindMessage(string text)
 
 public Message FindAnotherMessage(string text)
 {
-	Console.Writeline("This is the message!");
+	if(IsMessage)
+	{
+		Console.Writeline("This is the message!");
+	}	
 }
