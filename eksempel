@@ -26,3 +26,8 @@ public Message FindAnotherMessage(string text)
 {
 	Console.Writeline("This is the message!");
 }
+
+public Message FunctionAddedInBranch_feature/saa_AnotherNew(string text)
+{
+	Console.Writeline("Hey you!");
+}
