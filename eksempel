@@ -21,3 +21,6 @@ public Message FindMessage(string text)
 
 	return msg;
 }
+
+public Message FindAnotherMessage(string text)
+{}
