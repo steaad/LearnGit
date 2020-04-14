@@ -23,4 +23,6 @@ public Message FindMessage(string text)
 }
 
 public Message FindAnotherMessage(string text)
-{}
+{
+	Console.Writeline("This is the message!");
+}
